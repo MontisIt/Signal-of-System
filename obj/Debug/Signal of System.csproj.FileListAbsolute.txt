@@ -1,0 +1,28 @@
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\Signal of System.exe.config
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\Signal of System.exe
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\Signal of System.pdb
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System.csproj.AssemblyReference.cache
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System.csproj.SuggestedBindingRedirects.cache
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\MainWindow.g.cs
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\App.g.cs
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System_MarkupCompile.cache
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System_MarkupCompile.lref
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\MainWindow.baml
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System.g.resources
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal_of_System.Properties.Resources.resources
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System.csproj.GenerateResource.cache
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System.csproj.CoreCompileInputs.cache
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System.exe
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System.pdb
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\MaterialDesignColors.dll
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\MaterialDesignColors.pdb
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\App.baml
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Signal of System.csproj.CopyComplete
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Short_circuit.g.cs
+D:\University\Организация ЭВМ периферийные устройства\Приложение\Signal of System\obj\Debug\Short_circuit.baml
