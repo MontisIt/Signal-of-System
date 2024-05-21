@@ -1,0 +1,175 @@
+﻿<Window x:Class="Signal_of_System.Short_circuit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Signal_of_System"
+        mc:Ignorable="d"
+        Title="Signal of System" Height="750" Width="1100"  WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/Лого SOS.png" >
+    <Grid Background="DarkSlateBlue">
+        <Grid Margin="10,10,650,10" x:Name="Grid_L" >
+            <Border Background="DarkSlateGray" CornerRadius="20"  MinHeight="0" MinWidth="0"  Margin="134,91,0,190" HorizontalAlignment="Left" Width="256"  >
+                <Image  HorizontalAlignment="Left" MinHeight="250"  VerticalAlignment="Center" MinWidth="120" Source="/power_unit.jpg" Height="390" Width="182" Margin="60,0,0,0" />
+            </Border>
+            <Button Name="Back_from_Short_circuit" Click="Back_from_Short_circuit_Click"  Content="Назад в меню"   HorizontalAlignment="Left" Height="40" Margin="30,26,0,0" VerticalAlignment="Top" Width="150" FontSize="16"/>
+
+        </Grid>
+        <Grid Background="WhiteSmoke" Margin="450,32,232,10" x:Name="Grid_R">
+            <Image  HorizontalAlignment="Left" MinHeight="1"  VerticalAlignment="Top" MinWidth="1" RenderTransformOrigin="0.486,0.489"  Height="1" Width="1" Margin="29,149,0,0" />
+            <TextBlock  TextWrapping="Wrap" FontSize="16" FontWeight="Bold" Height="45" Width="402" Margin="0,20,0,608" HorizontalAlignment="Center" TextAlignment="Center" LineHeight="14" Foreground="Black"><Run Language="ru-ru" Text="Значение линий"/><Run Text=" блока питания "/></TextBlock>
+            <Border  Background="DarkGray" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="585" Margin="14,70,0,0" VerticalAlignment="Top" Width="94">
+
+                <StackPanel HorizontalAlignment="Left" Height="585" VerticalAlignment="Top" Width="94">
+                    <TextBlock TextWrapping="Wrap" Text="Pin No." FontSize="14" FontWeight="Bold" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="1" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="2" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="3" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="4" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="5" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="6" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="7" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="8" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="9" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="10" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="11" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="12"     FontSize="14"  Height="43" Width="92" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+
+
+                </StackPanel>
+            </Border>
+            <Border  Background="DarkGray" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="585" Margin="108,70,0,0" VerticalAlignment="Top" Width="94">
+
+                <StackPanel HorizontalAlignment="Left" Height="585" VerticalAlignment="Center" Width="94" Margin="-1,0,0,0">
+                    <TextBlock TextWrapping="Wrap" Text="Definition" FontSize="14" FontWeight="Bold" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="3.3V" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="3.3V" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="GND" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="+5V" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="GND" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="+5V" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="GND" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="Power Good" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="5VSB (stand by +5V)" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="+12V" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="+12V" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="3.3V" FontSize="14"  Height="43" Width="92" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+
+                </StackPanel>
+            </Border>
+
+
+            <Border   Background="DarkGray" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="585" Margin="202,70,0,0" VerticalAlignment="Top" Width="94">
+
+                <StackPanel HorizontalAlignment="Left" Height="585" VerticalAlignment="Top" Width="94">
+                    <TextBlock TextWrapping="Wrap" Text="Pin No." FontSize="14" FontWeight="Bold" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="13" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="14" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="15" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="16" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="17" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="18" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="19" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="20" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="21" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="22" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="23" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="24"     FontSize="14"  Height="43" Width="92" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+            <Border  Background="DarkGray" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="585" Margin="296,70,0,0" VerticalAlignment="Top" Width="94">
+
+                <StackPanel HorizontalAlignment="Center" Height="585" VerticalAlignment="Center" Width="94">
+                    <TextBlock TextWrapping="Wrap" Text="Definition" FontSize="14" FontWeight="Bold" Height="45" Width="94" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="3.3V" FontSize="14" Height="45" Width="92" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="-12V" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="GND" FontSize="14" Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="PS_ON" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="GND" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="GND" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="GND" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="NC" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="+5V" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="+5V" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="+5V" FontSize="14"  Height="45" Width="94" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="GND" FontSize="14"  Height="43" Width="92" Margin="0,0,0,0" HorizontalAlignment="Left" TextAlignment="Center"/>
+
+                </StackPanel>
+            </Border>
+
+
+
+
+
+            <RadioButton GroupName="Points" Name="No_1" Content=""  HorizontalAlignment="Left" Margin="85,119,0,0" VerticalAlignment="Top" Height="15" Width="16" RenderTransformOrigin="0.363,0.319" Checked="No_1_Checked">
+                <RadioButton.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.583"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </RadioButton.RenderTransform>
+            </RadioButton>
+            <RadioButton GroupName="Points" Name="No_2" Content="" HorizontalAlignment="Left" Height="17" Margin="85,164,0,0" VerticalAlignment="Top" Width="18" Checked="No_2_Checked"/>
+            <RadioButton GroupName="Points" Name="No_3" Content="" HorizontalAlignment="Left" Height="17" Margin="85,211,0,0" VerticalAlignment="Top" Width="18" Checked="No_3_Checked"/>
+            <RadioButton GroupName="Points" Name="No_4" Content="" HorizontalAlignment="Left" Height="17" Margin="85,255,0,0" VerticalAlignment="Top" Width="18" Checked="No_4_Checked"/>
+            <RadioButton GroupName="Points" Name="No_5" Content="" HorizontalAlignment="Left" Height="17" Margin="85,299,0,0" VerticalAlignment="Top" Width="18" Checked="No_5_Checked"/>
+            <RadioButton GroupName="Points" Name="No_6" Content="" HorizontalAlignment="Left" Height="16" Margin="85,346,0,0" VerticalAlignment="Top" Width="18" Checked="No_6_Checked"/>
+            <RadioButton GroupName="Points" Name="No_7" Content="" HorizontalAlignment="Left" Height="16" Margin="85,387,0,0" VerticalAlignment="Top" Width="18" Checked="No_7_Checked"/>
+            <RadioButton GroupName="Points" Name="No_8" Content="" HorizontalAlignment="Left" Height="16" Margin="85,433,0,0" VerticalAlignment="Top" Width="18" Checked="No_8_Checked"/>
+
+            <RadioButton GroupName="Points" Name="No_9" Content="" HorizontalAlignment="Left" Height="17" Margin="85,480,0,0" VerticalAlignment="Top" Width="18" Checked="No_9_Checked"/>
+            <RadioButton GroupName="Points" Name="No_10" Content="" HorizontalAlignment="Left" Height="17" Margin="85,526,0,0" VerticalAlignment="Top" Width="18" Checked="No_10_Checked"/>
+            <RadioButton GroupName="Points" Name="No_11" Content="" HorizontalAlignment="Left" Height="16" Margin="85,571,0,0" VerticalAlignment="Top" Width="18" Checked="No_11_Checked"/>
+            <RadioButton GroupName="Points" Name="No_12" Content="" HorizontalAlignment="Left" Height="16" Margin="85,615,0,0" VerticalAlignment="Top" Width="18" Checked="No_12_Checked"/>
+
+
+
+
+            <RadioButton GroupName="Points" Name="No_13" Content=""  HorizontalAlignment="Left" Margin="274,120,0,0" VerticalAlignment="Top" Height="15" Width="16" RenderTransformOrigin="0.363,0.319" Checked="No_13_Checked" />
+            <RadioButton GroupName="Points" Name="No_14" Content="" HorizontalAlignment="Left" Height="17" Margin="274,164,0,0" VerticalAlignment="Top" Width="18" Checked="No_14_Checked"/>
+            <RadioButton GroupName="Points" Name="No_15" Content="" HorizontalAlignment="Left" Height="17" Margin="274,211,0,0" VerticalAlignment="Top" Width="18" Checked="No_15_Checked"/>
+            <RadioButton GroupName="Points" Name="No_16" Content="" HorizontalAlignment="Left" Height="17" Margin="274,255,0,0" VerticalAlignment="Top" Width="18" Checked="No_16_Checked"/>
+            <RadioButton GroupName="Points" Name="No_17" Content="" HorizontalAlignment="Left" Height="17" Margin="274,299,0,0" VerticalAlignment="Top" Width="18" Checked="No_17_Checked"/>
+            <RadioButton GroupName="Points" Name="No_18" Content="" HorizontalAlignment="Left" Height="17" Margin="274,342,0,0" VerticalAlignment="Top" Width="18" Checked="No_18_Checked"/>
+            <RadioButton GroupName="Points" Name="No_19" Content="" HorizontalAlignment="Left" Height="17" Margin="274,387,0,0" VerticalAlignment="Top" Width="18" Checked="No_19_Checked"/>
+            <RadioButton GroupName="Points" Name="No_21" Content="" HorizontalAlignment="Left" Height="17" Margin="274,480,0,0" VerticalAlignment="Top" Width="18" Checked="No_21_Checked"/>
+            <RadioButton GroupName="Points" Name="No_22" Content="" HorizontalAlignment="Left" Height="16" Margin="274,523,0,0" VerticalAlignment="Top" Width="18" Checked="No_22_Checked"/>
+            <RadioButton GroupName="Points" Name="No_23" Content="" HorizontalAlignment="Left" Height="17" Margin="274,571,0,0" VerticalAlignment="Top" Width="18" Checked="No_23_Checked"/>
+            <RadioButton GroupName="Points" Name="No_24" Content="" HorizontalAlignment="Left" Height="17" Margin="274,615,0,0" VerticalAlignment="Top" Width="18" Checked="No_24_Checked"/>
+
+
+
+        </Grid>
+
+        <Grid Background="WhiteSmoke" Margin="868,32,10,235">
+            <TextBlock TextWrapping="Wrap" Text="Результаты измерения блока питания мультиметром" FontSize="15" FontWeight="Bold" Width="180" Margin="0,24,0,324" HorizontalAlignment="Center" TextAlignment="Center" LineHeight="14" Foreground="Black" RenderTransformOrigin="0.482,0.675"/>
+
+
+
+            <StackPanel Background="DarkGray" HorizontalAlignment="Left" Height="44" Margin="10,91,0,0" VerticalAlignment="Top" Width="134">
+                <Label Name="Volt" Content="" Height="44"  FontSize="25" FontWeight="Normal" Width="116" HorizontalAlignment="Center"/>
+                <Label Name="Om" Content="" Height="16" FontSize="25" FontWeight="Normal" Width="116" HorizontalAlignment="Center"/>
+                <Label Name="Amper" Content="" Height="9"  FontSize="25" FontWeight="Normal" Width="116" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Background="DarkGray" HorizontalAlignment="Left" Height="44" Margin="140,91,0,0" VerticalAlignment="Top" Width="61">
+                <TextBlock Height="44" FontSize="25" FontWeight="Normal"  TextWrapping="Wrap" Text="В" Width="44" TextAlignment="Center"/>
+
+            </StackPanel>
+
+
+
+            <Button  Click="Scan_Points" FontSize="20" FontWeight="Normal" Content="Измерить" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="166" Margin="22,167,0,0" Background="DarkSlateBlue" Foreground="WhiteSmoke"/>
+
+
+            <TextBlock Background="DarkGray" Name="result_repair_textblock" FontSize="20" FontWeight="Normal"  TextWrapping="Wrap" Text="" TextAlignment="Center" Margin="10,226,10,133" Foreground="WhiteSmoke"/>
+
+            <Button Background="DarkSlateBlue" Click="Repair_button_Click" FontSize="18" FontWeight="Normal" Content="Ремонт неисправности" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="202" Margin="0,350,0,0" Foreground="#FFE6E6E6"/>
+
+
+        </Grid>
+
+
+    </Grid>
+</Window>

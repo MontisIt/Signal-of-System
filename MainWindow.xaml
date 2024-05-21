@@ -1,0 +1,148 @@
+﻿<Window x:Class="Signal_of_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Signal_of_System"
+        mc:Ignorable="d"
+        
+        Title="Signal of System" Height="750" Width="1100"  WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/Лого SOS.png" >
+    <Grid Background="DarkSlateBlue">
+        <Grid Margin="10,10,550,10" x:Name="Grid_L" Background="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border CornerRadius="20" Background="Black" Margin="0,5,0,0" HorizontalAlignment="Center">
+                <Image  HorizontalAlignment="Center" MinHeight="358"  VerticalAlignment="Top" MinWidth="374" RenderTransformOrigin="0.486,0.489"  Margin="-28,-1,0,0" Source="/GIGABYTE B660 AORUS MASTER DDR4 no back.png"/>
+            </Border>
+            <ScrollViewer HorizontalAlignment="Center" MinWidth="540"  Margin="0,5,0,0" CanContentScroll="True" Background="WhiteSmoke" Grid.Row="1">
+                <GroupBox Header=" Характеристики материнской платы:" FontSize="14" Padding="5" FontWeight="Bold">
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBlock Text="Общие параметры"/>
+                        <TextBlock Text="Тип - материнская плата" FontWeight="Normal"/>
+                        <TextBlock Text="Модель - GIGABYTE B660 AORUS MASTER DDR4" FontWeight="Normal"/>
+                        <TextBlock Text="Код производителя - [B660 AORUS MASTER DDR4]" FontWeight="Normal"/>
+                        <TextBlock Text="Год релиза - 2022" FontWeight="Normal"/>
+                        <TextBlock Text="Форм-фактор и размеры" FontWeight="Bold"/>
+                        <TextBlock Text="Форм-фактор - Standard-ATX" FontWeight="Normal"/>
+                        <TextBlock Text="Высота - 305 мм" FontWeight="Normal"/>
+                        <TextBlock Text="Ширина - 244 мм" FontWeight="Normal"/>
+                        <TextBlock Text="Процессор и чипсет" FontWeight="Bold"/>
+                        <TextBlock Text="Сокет - LGA 1700" FontWeight="Normal"/>
+                        <TextBlock Text="Чипсет Intel - Intel B660" FontWeight="Normal"/>
+                        <TextBlock Text="Совместимые ядра процессоров Intel - Alder Lake, Raptor Lake" FontWeight="Normal"/>
+                        <TextBlock Text="Память" FontWeight="Bold"/>
+                        <TextBlock Text="Тип поддерживаемой памяти - DDR4" FontWeight="Normal"/>
+                        <TextBlock Text="Форм-фактор поддерживаемой памяти - DIMM" FontWeight="Normal"/>
+                        <TextBlock Text="Количество слотов памяти - 4 шт" FontWeight="Normal"/>
+                        <TextBlock Text="Количество каналов памяти - 2" FontWeight="Normal"/>
+                        <TextBlock Text="Максимальный объем памяти - 128 ГБ" FontWeight="Normal"/>
+                        <TextBlock Text="Максимальная частота памяти - 3200 МГц" FontWeight="Normal"/>
+                        <TextBlock Text="Слоты расширения" FontWeight="Bold"/>
+                        <TextBlock Text="Версия PCI Express - 4.0" FontWeight="Normal"/>
+                        <TextBlock Text="Количество слотов PCI-E x16 - 3 шт" FontWeight="Normal"/>
+                        <TextBlock Text="Количество слотов PCI-E x1 - 0 шт" FontWeight="Normal"/>
+                        <TextBlock Text="Контроллеры накопителей" FontWeight="Bold"/>
+                        <TextBlock Text="Поддержка NVMe - есть" FontWeight="Normal"/>
+                        <TextBlock Text="Версия PCI Express накопителей - 4.0" FontWeight="Normal"/>
+                        <TextBlock Text="Количество разъемов M.2 - 3 шт" FontWeight="Normal"/>
+                        <TextBlock Text="Разъемы M.2 - 2 x (M) 2260/2280/22110 PCIe 4.0 x4, (M) 2260/2280/22110 PCIe 3.0 x4" FontWeight="Normal" TextWrapping="Wrap"/>
+                        <TextBlock Text="Количество портов SATA - 4 шт" FontWeight="Normal"/>
+                        <TextBlock Text="Режим работы SATA RAID - 0, 1, 10, 5" FontWeight="Normal"/>
+                        <TextBlock Text="Порты на задней панели" FontWeight="Bold"/>
+                        <TextBlock Text="Количество и тип USB на задней панели - USB 2.0 x4, USB 3.2 Gen1 Type A x4, USB 3.2 Gen2 Type A, USB 3.2 Gen2x2 Type-C" FontWeight="Normal" TextWrapping="Wrap"/>
+                        <TextBlock Text="Видеовыходы - 1 x DisplayPort, 1 x HDMI" FontWeight="Normal"/>
+                        <TextBlock Text="Количество сетевых портов (RJ-45) - 1" FontWeight="Normal"/>
+                        <TextBlock Text="Количество аналоговых аудиоразъемов - 5" FontWeight="Normal"/>
+                        <TextBlock Text="Разъемы SMA (для антенны Wi-Fi) - есть" FontWeight="Normal"/>
+                        <TextBlock Text="Разъемы на плате" FontWeight="Bold"/>
+                        <TextBlock Text="Внутренние USB Type-A разъемы - 1 x USB 3.2 Gen 1 (19 pin), 2 x USB 2.0 (9 pin)" FontWeight="Normal" TextWrapping="Wrap"/>
+                        <TextBlock Text="Внутренние USB Type-C разъемы - 1 x USB 3.2 Gen 2" FontWeight="Normal"/>
+                        <TextBlock Text="Разъемы питания процессорного охлаждения - 1 x 4 pin (кулер), 1 x 4 pin (помпа)" FontWeight="Normal" TextWrapping="Wrap"/>
+                        <TextBlock Text="Разъемы для корпусных вентиляторов (4 pin) - 4 шт" FontWeight="Normal"/>
+                        <TextBlock Text="Разъем M.2 (E) для модулей беспроводной связи - есть" FontWeight="Normal"/>
+                        <TextBlock Text="Аудио" FontWeight="Bold"/>
+                        <TextBlock Text="Звуковая схема - 7.1" FontWeight="Normal"/>
+                        <TextBlock Text="Чипсет звукового адаптера - Realtek ALC1220-VB" FontWeight="Normal"/>
+                        <TextBlock Text="Сеть" FontWeight="Bold"/>
+                        <TextBlock Text="Скорость сетевого адаптера - 2.5 Гбит/с" FontWeight="Normal"/>
+                        <TextBlock Text="Версия Bluetooth - 5.2" FontWeight="Normal"/>
+                        <TextBlock Text="Питание и охлаждение" FontWeight="Bold"/>
+                        <TextBlock Text="Основной разъем питания - 24 pin" FontWeight="Normal"/>
+                        <TextBlock Text="Разъем питания процессора - 8 pin + 4 pin" FontWeight="Normal"/>
+                        <TextBlock Text="Количество фаз питания - 16+1+1" FontWeight="Normal"/>
+                        <TextBlock Text="Пассивное охлаждение - 3 x M.2 слот, зона VRM, чипсет" FontWeight="Normal" TextWrapping="Wrap"/>
+                        <TextBlock Text="Активное охлаждение - нет" FontWeight="Normal"/>
+
+                    </StackPanel>
+                </GroupBox>
+            </ScrollViewer>
+
+
+        </Grid>
+        <Grid Margin="550,0,0,0" x:Name="Grid_R">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="150"/>
+            </Grid.RowDefinitions>
+
+
+            <GroupBox HorizontalAlignment="Center" Height="574"  VerticalAlignment="Top" Width="550" FontSize="14" Padding="5"  FontWeight="Bold" Background="WhiteSmoke" Margin="0,10,0,0">
+                <StackPanel Margin="0,150,-10,0" Height="423">
+                    <TextBlock Height="37" TextWrapping="Wrap" Text="Возможные неисправности:" Width="360" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"/>
+                    <TextBlock HorizontalAlignment="Left" Height="37" Margin="20,10,0,0" TextWrapping="Wrap" Text="Короткое замыкание на линиях +12В, +5В, +3.3В" VerticalAlignment="Top" Width="360" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBlock HorizontalAlignment="Left" Height="37" Margin="20,15,0,0" TextWrapping="Wrap" Text="Южный мост" VerticalAlignment="Top" Width="360" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBlock HorizontalAlignment="Left" Height="37" Margin="20,15,0,0" TextWrapping="Wrap" Text="BIOS" VerticalAlignment="Top" Width="360" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBlock HorizontalAlignment="Left" Height="37" Margin="20,15,0,0" TextWrapping="Wrap" Text="CMOS" VerticalAlignment="Top" Width="360" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBlock HorizontalAlignment="Left" Height="37" Margin="20,15,0,0" TextWrapping="Wrap" Text="PCIEX" VerticalAlignment="Top" Width="360" RenderTransformOrigin="0.5,0.5"/>
+                    <TextBlock HorizontalAlignment="Left" Height="37" Margin="20,15,0,0" TextWrapping="Wrap" Text="Слоты RAM" VerticalAlignment="Top" Width="360" RenderTransformOrigin="0.5,0.5"/>
+
+
+                </StackPanel>
+            </GroupBox>
+            <Button Name="Scan" Click="Scan_Click" Content="Сгенерировать неисправности" FontSize="30" HorizontalAlignment="Center" Height="50" Grid.Row="1" VerticalAlignment="Top" Width="454" Margin="0,75,0,0" Cursor="AppStarting" Background="WhiteSmoke"/>
+            <Button Name="ON_mother_board" Click="ON_mother_board_button_Click" Content="Вкл/Откл компьютер" FontSize="30" HorizontalAlignment="Center" Height="50" Grid.Row="1" VerticalAlignment="Top" Width="454" Margin="0,10,0,0" Cursor="AppStarting" Background="WhiteSmoke"/>
+            <Label Name="Health_Signal_of_Short_circuit" Content="Состояние" FontSize="12"  HorizontalAlignment="Left" Height="24" Margin="22,233,0,0" VerticalAlignment="Top" Width="230" FontWeight="Bold" Background="WhiteSmoke"/>
+            <Label Name="Health_Signal_of_South_Bridge" Content="Состояние" FontSize="12"  HorizontalAlignment="Left" Height="24" Margin="22,284,0,0" VerticalAlignment="Top" Width="230" FontWeight="Bold" Background="WhiteSmoke"/>
+            <Label Name="Health_Signal_of_BIOS" Content="Состояние" FontSize="12"  HorizontalAlignment="Left" Height="24" Margin="22,334,0,0" VerticalAlignment="Top" Width="230" FontWeight="Bold" Background="WhiteSmoke"/>
+            <Label Name="Health_Signal_of_CMOS" Content="Состояние" FontSize="12"  HorizontalAlignment="Left" Height="24" Margin="22,391,0,0" VerticalAlignment="Top" Width="230" FontWeight="Bold" Background="WhiteSmoke"/>
+            <Label Name="Health_Signal_of_PCI_E" Content="Состояние" FontSize="12"  HorizontalAlignment="Left" Height="24" Margin="22,441,0,0" VerticalAlignment="Top" Width="230" FontWeight="Bold" Background="WhiteSmoke"/>
+            <Label Name="Health_Signal_of_RAM_SLOTS" Content="Состояние" FontSize="12"  HorizontalAlignment="Left" Height="24" Margin="22,491,0,0" VerticalAlignment="Top" Width="230" FontWeight="Bold" Background="WhiteSmoke"/>
+
+
+
+            <Button Name="Short_circuit_button_detailed" Click="Short_circuit_button_detailed_Click"  Content="Подробнее" HorizontalAlignment="Left" Height="40" Margin="403,219,0,0" VerticalAlignment="Top" Width="130" Background="#FF4C4384" Foreground="#FFDADADA"/>
+            <Button Name="South_Bridge_button_detailed" Click="South_Bridge_button_detailed_Click"  Content="Подробнее" HorizontalAlignment="Left" Height="40" Margin="403,269,0,0" VerticalAlignment="Top" Width="130" Background="DarkSlateBlue" Foreground="WhiteSmoke"/>
+            <Button Name="BIOS_button_detailed" Click="BIOS_button_detailed_Click"  Content="Подробнее" HorizontalAlignment="Left" Height="40" Margin="403,319,0,0" VerticalAlignment="Top" Width="130" Background="#FF4C4285" Foreground="WhiteSmoke"/>
+            <Button Name="CMOS_button_detailed" Click="CMOS_button_detailed_Click"  Content="Подробнее" HorizontalAlignment="Left" Height="40" Margin="403,369,0,0" VerticalAlignment="Top" Width="130" Background="DarkSlateBlue" Foreground="WhiteSmoke"/>
+            <Button Name="PCI_E_button_detailed" Click="PCI_E_button_detailed_Click"  Content="Подробнее" HorizontalAlignment="Left" Height="40" Margin="403,419,0,0" VerticalAlignment="Top" Width="130" Background="DarkSlateBlue" Foreground="WhiteSmoke"/>
+            <Button Name="RAM_SLOTS_button_detailed" Click="RAM_SLOTS_button_detailed_Click" Content="Подробнее" HorizontalAlignment="Left" Height="40" Margin="403,469,0,0" VerticalAlignment="Top" Width="130" Background="DarkSlateBlue" Foreground="WhiteSmoke"/>
+
+
+            <Image Name="WINDOW" Margin="132,18,132,423" OpacityMask="Black" Stretch="Fill" Source="/black_window.png"/>
+
+
+
+
+            <Rectangle Stroke="Black" Margin="425,18,39,423"/>
+            <Rectangle Stroke="Black" Margin="425,53,39,479"/>
+            <Rectangle Stroke="Black" Margin="431,23,94,531"/>
+            <Rectangle Stroke="Black" Margin="456,23,70,531"/>
+            <Rectangle Stroke="Black" Margin="480,23,46,531"/>
+            <Ellipse Name="Ellipse_On_off" Fill="Red" Stroke="Black" Margin="438,102,66,433"/>
+
+
+
+
+        </Grid>
+
+
+
+
+
+
+    </Grid>
+</Window>
